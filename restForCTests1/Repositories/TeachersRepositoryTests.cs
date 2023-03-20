@@ -14,7 +14,9 @@ namespace restForC.Repositories.Tests
         [TestMethod()]
         public void GetAllTest()
         {
-            Assert.Fail();
+            TeachersRepository repo = new();
+            Assert.AreEqual(2, repo.GetAll().Count);
+        
         }
     }
 }
