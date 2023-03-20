@@ -1,12 +1,20 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using restForC.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace restForCTests1.Repositories
+namespace restForC.Repositories.Tests
 {
-    internal class TeachersRepositoryTests
+    [TestClass()]
+    public class TeachersRepositoryTests
     {
+        [TestMethod()]
+        public void GetAllTest()
+        {
+            Assert.Fail();
+        }
     }
 }
